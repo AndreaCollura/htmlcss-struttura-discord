@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Discord-Home Page</title>
 </head>
 <body>
     <header>
-        <nav class="container d-flex debug">
+        <nav class="container d-flex navtext-center debug">
             <div class="logo">
                 <img src="./img/logo.svg" alt="logo">
             </div>
-            <ul class="d-flex">
+            <ul class="d-flex navtext-center">
                 <li><a href=""></a>1</li>
                 <li><a href=""></a>2</li>
                 <li><a href=""></a>3</li>
                 <li><a href=""></a>4</li>
                 <li><a href=""></a>5</li>
             </ul>
-            <a href="">button</a>
+            <a class="d-flex navtext-center" href="">button</a>
             
         </nav>
-
-
 
         <div id="jumbotron">
             <div class="container debug">addadas</div>
@@ -35,13 +36,22 @@
 
     <main>
         <section>
-            <div class="container debug">1</div>
+            <div class="container d-flex debug">
+                <div class="left debug">left</div>
+                <div class="right debug">right</div>
+            </div>
         </section>
         <section>
-            <div class="container debug grey-bg">2</div>
+            <div class="container d-flex row-reverse debug grey-bg">
+                <div class="left debug">left</div>
+                <div class="right debug">right</div>
+            </div>
         </section>
         <section>
-            <div class="container debug ">3</div>
+            <div class="container d-flex debug ">
+                <div class="left debug">left</div>
+                <div class="right debug">right</div>
+            </div>
         </section>
         <section>
             <div class="container debug grey-bg">4</div>
@@ -67,8 +77,12 @@
                 <li>5</li>
             </ul>
         </div>
-        <div class="footer-bottom d-flex">
-            <div class="logo">logo+button</div>
+        <div class="footer-bottom container debug">
+            <div class="logo d-flex">
+                <img src="./img/logo.svg" alt="logo">
+                <a class="d-flex " href="">registrati</a>
+            </div>
+            
         </div>
         
 

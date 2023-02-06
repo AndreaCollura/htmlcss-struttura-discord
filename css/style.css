@@ -27,6 +27,7 @@
 
 body{
     background-color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -44,6 +45,21 @@ footer{
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: flex-start;
+}
+
+.navtext-center{
+    align-content: center;
+}
+
+.left{
+    width: 55%;
+}
+.right{
+    width: 45%;
+
+}
+.row-reverse{
+    flex-flow: row-reverse wrap;
 }
 
 
