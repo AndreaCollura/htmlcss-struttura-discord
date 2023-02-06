@@ -1,0 +1,18 @@
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Color styles */
+--blue-nav: #255EE9;
+--grey-bg: #F6F6F6;
+--black-footer: #23272A;
+--purple-btn: #7289DA;
+--primary-color: #FFFFFF;
+
+}
+
