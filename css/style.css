@@ -16,3 +16,55 @@
 
 }
 
+.debug{
+    border: 1px solid red;
+}
+
+.grey-bg{
+    background-color: var(--grey-bg);
+}
+
+
+body{
+    background-color: var(--primary-color);
+}
+
+
+header{
+    background-color: var(--blue-nav);
+}
+
+footer{
+    background-color: var(--black-footer);
+}
+
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+
+/* CONTAINER */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+/* TEXT */
+
+ul{
+    list-style: none;
+}
+
+li{
+    color: var(--primary-color);
+}
+
+
+
